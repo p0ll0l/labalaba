@@ -3,7 +3,7 @@
 #include <iostream>
 
 #include "DynamicLib.h"
-
+//qqq
 
 int main() {
     Date start = { 1, 1, 2020 };
