@@ -22,9 +22,9 @@ int main() {
     std::string date2 = "2023-08-15";
     std::string date3 = "08-15-2023";
 
-    std::cout << "Standard format for " << date1 << "::" << DateConverter::convertToStandardFormat(date1) << std::endl;
-    std::cout << "Standard format for " << date2 << "::" << DateConverter::convertToStandardFormat(date2) << std::endl;
-    std::cout << "Standard format for " << date3 << "::" << DateConverter::convertToStandardFormat(date3) << std::endl;
+    std::cout << "Standard format for " << date1 << ": " << DateConverter::convertToStandardFormat(date1) << std::endl;
+    std::cout << "Standard format for " << date2 << ": " << DateConverter::convertToStandardFormat(date2) << std::endl;
+    std::cout << "Standard format for " << date3 << ": " << DateConverter::convertToStandardFormat(date3) << std::endl;
 
     return 0;
 }
