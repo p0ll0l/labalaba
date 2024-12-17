@@ -50,5 +50,20 @@ int main() {
         std::cout << "Новый Год уже прошел!" << std::endl;
     }
 
+    int daysUntilNewYear = daysToNewYear(month, day);
+    if (daysUntilNewYear > 0) {
+        std::cout << "До Нового Года осталось " << daysUntilNewYear << " дня." << std::endl;
+    }
+    else {
+        std::cout << "Новый Год уже прошел!" << std::endl;
+    }
+
+    int daysUntilNewYear = daysToNewYear(month, day);
+    if (daysUntilNewYear > 0) {
+        std::cout << "До Нового Года осталось " << daysUntilNewYear << " дня." << std::endl;
+    }
+    else {
+        std::cout << "Новый Год уже прошел!" << std::endl;
+    }
     return 0;
 }
