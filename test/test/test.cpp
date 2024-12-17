@@ -26,5 +26,26 @@ int main() {
     std::cout << "Standard format for " << date2 << "---" << DateConverter::convertToStandardFormat(date2) << std::endl;
     std::cout << "Standard format for " << date3 << "---" << DateConverter::convertToStandardFormat(date3) << std::endl;
 
+    int daysUntilNewYear = daysToNewYear(month, day);
+    if (daysUntilNewYear > 0) {
+        std::cout << "До Нового Года осталось " << daysUntilNewYear << " дня." << std::endl;
+    }
+    else {
+        std::cout << "Новый Год уже прошел!" << std::endl;
+    }
+    int daysUntilNewYear = daysToNewYear(month, day);
+    if (daysUntilNewYear > 0) {
+        std::cout << "До Нового Года осталось " << daysUntilNewYear << " дня." << std::endl;
+    }
+    else {
+        std::cout << "Новый Год уже прошел!" << std::endl;
+    }
+    int daysUntilNewYear = daysToNewYear(month, day);
+    if (daysUntilNewYear > 0) {
+        std::cout << "До Нового Года осталось " << daysUntilNewYear << " дня." << std::endl;
+    }
+    else {
+        std::cout << "Новый Год уже прошел!" << std::endl;
+    }
     return 0;
 }
