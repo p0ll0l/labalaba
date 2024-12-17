@@ -19,7 +19,7 @@ int main() {
 
 
     std::string date1 = "15/08/2023";
-    std::string date2 = "2023-08-15";
+    std::string date2 = "2023-08-22";
     std::string date3 = "08-15-2023";
 
     std::cout << "Standard format for " << date1 << "---" << DateConverter::convertToStandardFormat(date1) << std::endl;
